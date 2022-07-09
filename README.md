@@ -9,7 +9,7 @@
   ## Table of contents
   - [Installation](#Installation)
   - [Usage](#Usage)
-  - [Heroku Deployment](#Heroku Deployment)
+  - [Heroku Deployment](#HerokuDeployment)
   - [Contributions](#Contributions)
   - [Questions](#Questions)
   - [Testing](#Testing)

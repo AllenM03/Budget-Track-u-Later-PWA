@@ -1,4 +1,4 @@
-// defines and initializes db connection
+//// defines and initializes db connection ////
 let db;
 const request = indexedDB.open('budget-tracker', 1);
 
@@ -34,7 +34,7 @@ function checkDatabase() {
   getAllStores.onsuccess = function () {
     if (getAllStores.result.length > 0) {
       getAllStores.result.forEach((record) => {
-        // fetch request to /api/transaction
+        ////// fetch request to /api/transaction /////
         fetch('/api/transaction', {
           //  POST method
           method: 'POST',
@@ -45,7 +45,7 @@ function checkDatabase() {
             'Content-Type': 'application/json',
           },
         })
-          // Response is servers response to request
+          ///// Servers response to request /////
           .then((response) => {
             // return response to the server
             return response.json();
@@ -67,5 +67,5 @@ function checkDatabase() {
   };
 }
 
-// listen for app coming back online
+///// listen for app coming back online and check Database /////
 window.addEventListener('online', checkDatabase);
