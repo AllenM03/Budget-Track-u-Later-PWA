@@ -36,4 +36,4 @@
   https://github.com/AllenM03/Budget-Track-u-Later-PWA
   
   ## GitHub Info
-  [Review my other projects on GitHub.](https://www.github.com/AllenM03)
+  [Review my other projects on GitHub.](https://github.com/AllenM03)
